@@ -1,6 +1,6 @@
 select * from ap_crm.rbp_add_mcl;
 select * from ap_crm.crm_analy_1st_loan;
-
+--------add a line for testing
 ----------------------------------------------------------------------------------------------------------
 ;
 with Offers as
@@ -350,7 +350,7 @@ AND O.SKP_CAMPAIGN=IB.SKP_CAMPAIGN
 select dat.dtime_campaign_valid_from,
        dat.code_offer_type,
        dat.code_risk_grade,
-       dat.PROD_SET£¬
+       dat.PROD_SETÂ£Â¬
        --DAT.FLAG_MA,
        --DAT.FLAG_LOW,
        DAT.FLAG_CALLIST, 
